@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+body{ 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container{
+background: url('https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png');
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 500px;
+  border: solid 3px grey;
+}
+h1{
+  color: #6B8068;
+  margin-left: 72px;
+  margin-bottom: 0.5em;
+}
+
+.container .box{
+  width: 100%;
+  display: flex;
+}
+.box div{
+  width :100%
+}
+select{
+  width: 95%;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background: #72736f;
+  outline: none;
+  color: black;
+  margin: 0.2em 0;
+  padding: 0 1em;
+  border-radius: 10px; 
+  border:none;
+}
+
+input{
+  width: 95%;
+  height: 40px;
+  font-size: 1em;
+  margin: 0.2em 0;
+  border-radius: 10px; 
+  border:none;
+  background: #ccc;
+  outline: none;
+  padding: 0 1em;
+}
+
+.btn{
+  width: 98%;
+  height: 40px;
+  background: #364547;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0.5em 0;
+  transition: transform 0.1s ease;
+}
+.btn:active{
+  transform: translate(3px, 2px);
+}
